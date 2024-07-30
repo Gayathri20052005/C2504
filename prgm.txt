@@ -78,7 +78,7 @@ pseudo: main
 	Function __Main__()
 		TestDivivsibilityBy3()
 -----------------------------------------------------------------------------------------------------------------
-11. number divisible by 27. 
+6. number divisible by 27. 
 
 pseudo:
 	Function CheckDivisibilityBy27(num)
@@ -97,7 +97,7 @@ pseudo: main
 	Function __Main__()
 		TestDivivsibilityBy27()
 ----------------------------------------------------------------------------------------------------------------
-14. to print N natural numbers. 
+7. to print N natural numbers. 
 
 pseudo: 
 	Function PrintNaturalNumbers(num):
@@ -115,7 +115,7 @@ pseudo: main
 		
 -
 -----------------------------------------------------------------------------------------------------------------
-19. to check number is odd or even. 
+8. to check number is odd or even. 
 
 pseudo: 
 	function CheckOddOrEven(num)
@@ -135,7 +135,7 @@ pseudo:main
 		CheckOddOrEven()
 ----------------------------------------------------------------------------------------------------------------------
 
-. 
+9.  To find the length of a string
 	
 pseudo:
 	Function FindStringLength(str)
@@ -150,9 +150,8 @@ pseudo:main
 	Function __Main__()
 		TestFindStringLength()
 
-25. to delete duplicates strings in string list.
 ---------------------------------------------------------------------------------------------------------------------------------
-26. to count vowels in a string. 
+10. to count vowels in a string. 
 
 pseudo: 
 	Function CountVowels()
