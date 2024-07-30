@@ -1,0 +1,171 @@
+1. To find average of two numbers.
+
+pseudo :
+	Function FindAverage(num1, num2)
+		sum = num1 + num2
+		avg = sum/2
+		return avg
+pseudo : routine
+	function TestFindAverage()
+		input num1
+		input num2
+		sum = average(num1, num2)
+		print(sum)
+pseudo : main
+	function __Main__()
+		TestAverage()
+------------------------------------------------------------------------------------------------------------------
+2. to find cube of number.
+
+pseudo :
+	Function FindCube(num)
+		cube = num*num*num
+		return cube
+pseudo : routine
+	Function TestFindCube()
+		input num
+		cube = FindCube()
+		print(cube)
+pseudo : main
+	Function __main__()
+		TestFindCube()
+----------------------------------------------------------------------------------------------
+3. to find square of the number.
+
+pseudo :
+	Function FindSquare(num)
+		sqr = num*num
+		return sqr
+pseudo : routine test
+	Procedure TestFindSquare()
+		input num
+		sqr = FindSquare()
+		print(sqr)
+pseudo : main
+	Function __main__()
+		TestFindSquare()
+------------------------------------------------------------------------------------------------
+4. swap two numbers.
+
+pseudo:
+	function swap(num1, num2, num3)
+		num3 = num2
+		num2 = num1
+		num1 = num2
+	
+
+	function
+		input num1
+		input num2
+		input num3
+------------------------------------------------------------------------------------------------------------
+5. to check nubmer is divisible by 3.
+
+pseudo:
+	Function IsDivisibileBy3(num)
+		if num%3 == 0
+			return True
+		else
+			return False
+pseudo: routine
+	Function IsDivisibileBy3()
+		input num
+		if CheckDivisibilityBy3()
+			print "Divisible by 3"
+		else
+			print " Not divisible by 3"
+pseudo: main
+	Function __Main__()
+		TestDivivsibilityBy3()
+-----------------------------------------------------------------------------------------------------------------
+11. number divisible by 27. 
+
+pseudo:
+	Function CheckDivisibilityBy27(num)
+		if num%27 == 0
+			return True
+		else
+			return False
+pseudo: routine
+	Function TestDivisibilityBy27()
+		input num
+		if CheckDivisibilityBy27()
+			print "Divisible by 27"
+		else
+			print " Not divisible by 27"
+pseudo: main
+	Function __Main__()
+		TestDivivsibilityBy27()
+----------------------------------------------------------------------------------------------------------------
+14. to print N natural numbers. 
+
+pseudo: 
+	Function PrintNaturalNumbers(num):
+		for i in 0 to num - 1
+			sum += i
+		return sum
+pseudo: routine
+	Function TestPrintNaturalNumber()
+		input n
+		sum = PrintNaturalNumbers()
+		print(sum)
+pseudo: main
+	function __Main__()
+		TestPrintNaturalNumbers()
+		
+-
+-----------------------------------------------------------------------------------------------------------------
+19. to check number is odd or even. 
+
+pseudo: 
+	function CheckOddOrEven(num)
+		if num%2 == 0
+			return True
+		else
+			return False
+pseudo: routine
+	function TestChekOddOrEven()
+		input num
+		if CheckOddOrEven() 
+			print "Number is even" 
+		else
+			print "Number is odd"
+pseudo:main
+	function __Main__()
+		CheckOddOrEven()
+----------------------------------------------------------------------------------------------------------------------
+
+. 
+	
+pseudo:
+	Function FindStringLength(str)
+		for i in 0 to str.Length-1
+			count += 1
+		return count
+pseudo:routine
+	Function TestFindStringLength()
+		Length = FindStringLength()
+		print(Length)
+pseudo:main
+	Function __Main__()
+		TestFindStringLength()
+
+25. to delete duplicates strings in string list.
+---------------------------------------------------------------------------------------------------------------------------------
+26. to count vowels in a string. 
+
+pseudo: 
+	Function CountVowels()
+		for i in 0 to str.Length-1
+			if i == "a"|| i =="e"||"i"||"o"||"u" in str[i] 
+				count += 1
+		return count
+pseudo:routine
+	Function TestCountVowels()
+		count = CountVowels()
+		print(count)
+pseudo:main
+	Function __main__()
+		TestCountVowels()
+
+------------------------------------------------------------------------------------------------------------------------------------ 
