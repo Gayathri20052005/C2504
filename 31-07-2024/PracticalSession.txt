@@ -1,0 +1,237 @@
+1. Write pseudocode for calculating the total cost of items in a shopping cart, including applying a discount if the total exceeds a certain amount.
+
+    Initialize decimal DISCOUNT_THRESHOLD
+    Initialize  decimal DISCOUNT_RATE 
+    Initialize decimal itemPrice
+
+    decimal totalCost = 0.0
+    itemCount = number of items in shopping cart
+
+    for each itemPrice in shopping cart
+        totalCost = totalCost + (itemPrice * itemQuantity)
+    END for
+
+    if totalCost > DISCOUNT_THRESHOLD THEN
+        discount = totalCost * DISCOUNT_RATE
+        totalCost = totalCost - discount
+    end if
+
+    print  totalCost
+
+
+
+
+
+
+
+BEGIN
+
+    DECLARE num1, num2, result AS FLOAT
+
+    DECLARE operator AS CHAR
+ 
+    // Input numbers and operator
+
+    PRINT "Enter first number: "
+
+    INPUT num1
+ 
+    PRINT "Enter operator (+, -, *, /): "
+
+    INPUT operator
+ 
+    PRINT "Enter second number: "
+
+    INPUT num2
+ 
+    // Perform calculation based on operator
+
+    IF operator == '+' THEN
+
+        result = num1 + num2
+
+    ELSE IF operator == '-' THEN
+
+        result = num1 - num2
+
+    ELSE IF operator == '*' THEN
+
+        result = num1 * num2
+
+    ELSE IF operator == '/' THEN
+
+        IF num2 != 0 THEN
+
+            result = num1 / num2
+
+        ELSE
+
+            PRINT "Error: Division by zero"
+
+            EXIT
+
+        END IF
+
+    ELSE
+
+        PRINT "Error: Invalid operator"
+
+        EXIT
+
+    END IF
+ 
+    // Output result
+
+    PRINT "The result is: ", result
+
+END
+==========================================================
+ 
+BEGIN
+
+    DECLARE items AS ARRAY OF FLOAT
+
+    DECLARE total AS FLOAT
+
+    DECLARE discount AS FLOAT
+
+    DECLARE finalTotal AS FLOAT
+
+    DECLARE threshold AS FLOAT
+
+    DECLARE discountRate AS FLOAT
+ 
+    SET items = [item1, item2, item3, ..., itemN]  // Assume item1, item2, etc., are the prices of the items
+
+    SET total = 0.0
+
+    SET threshold = 100.0  // Example threshold amount for discount
+
+    SET discountRate = 0.10  // Example discount rate of 10%
+ 
+    FOR EACH item IN items
+
+        total = total + item
+
+    END FOR
+ 
+    IF total > threshold THEN
+
+        discount = total * discountRate
+
+    ELSE
+
+        discount = 0
+
+    END IF
+ 
+    finalTotal = total - discount
+ 
+    PRINT "Total before discount: ", total
+
+    PRINT "Discount applied: ", discount
+
+    PRINT "Total after discount: ", finalTotal
+
+END
+
+----------------------------------------------------------------------------------------
+
+
+
+2. Simple Calculator
+
+
+input op
+decimal num1
+decimal num2
+initialize decimal result = 0
+if op == "+":
+	result = num1 + num2
+else if op == "-":
+	result = num1 - num2
+else if op == "*":
+	result = num1 * num2
+else:
+	result = num1 / num2
+print "result"
+
+
+----------------------------------------------------------------------------------------
+
+
+
+3. Write pseudocode for the FizzBuzz problem: For numbers 1 to 100, print "Fizz" for multiples of 3, "Buzz" for multiples of 5, and "FizzBuzz" for multiples of both.
+
+
+for i in range(1,101):
+	if i%3 == 0:
+		print "Fizz"
+	else if i%5 == 0:
+		print "Buzz"
+	else if i%3 == 0 and i%5 == 0:
+		print "FizzBuzz"
+	end if
+end for
+
+
+--------------------------------------------------------------------------------------
+
+
+4. Palindrome or not
+
+Input string
+initialise left to 0
+initialise right to length of string - 1
+
+While left < right:
+     If string[left] != string[right]:
+        Print "Not a palindrome"
+        break
+     Increment left by 1
+     Decrement right by 1
+
+Print "Palindrome"
+
+
+
+--------------------------------------------------------------------------------------------
+
+
+
+5. Sum of first 10 even numbers
+
+DECLARE i, SUM AS INT
+
+
+BEGIN
+	FOR i IN RANGE(0,11):
+		IF i%2 == 0 THEN
+			SUM += i
+		END IF
+	END FOR
+	PRINT SUM
+END
+
+
+
+5. Sum of first 10 even numbers
+
+DECLARE i AS INT
+
+BEGIN
+	FOR i IN RANGE(0,11):
+		if i%2 == 0:
+			SUM += i
+		END IF
+	END FOR
+	PRINT SUM
+END
+
+  
+
+ 
+
+
+
+
