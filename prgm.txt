@@ -45,19 +45,7 @@ pseudo : main
 	Function __main__()
 		TestFindSquare()
 ------------------------------------------------------------------------------------------------
-4. swap two numbers.
 
-pseudo:
-	function swap(num1, num2, num3)
-		num3 = num2
-		num2 = num1
-		num1 = num2
-	
-
-	function
-		input num1
-		input num2
-		input num3
 ------------------------------------------------------------------------------------------------------------
 5. to check nubmer is divisible by 3.
 
